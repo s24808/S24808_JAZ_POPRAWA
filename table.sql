@@ -1,3 +1,5 @@
+USE nbp;
+
 CREATE TABLE currency_query1 (
     id BIGINT AUTO_INCREMENT PRIMARY KEY,
     currency TINYINT NOT NULL,
