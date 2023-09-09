@@ -1,0 +1,11 @@
+method: POST
+
+http://localhost:8080/exchange-rate
+
+body:
+
+{
+    "currencyName": "USD",
+    "startDate": "2023-01-01",
+    "endDate": "2023-01-31"
+}
